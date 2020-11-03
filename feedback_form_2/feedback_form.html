@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>Feedback Form</title>	
+
+<h1>Feedback Form</h1>
+
+			<form class="form-style-9" id='i-recaptcha' method="POST" action="feedback_form_2/send_mail.php">
+			<ul>
+			<li>
+    		<input type="number" name="experience" class="field-style field-split align-left" placeholder="Rate Your Experience 1-10 (10 being best)" required/>
+			</li>
+			<li>
+			<input type="text" name="found" class="field-style field-full align-none" placeholder="How Did You Find Out About Us?" />
+			</li>
+            <li>
+			<textarea name="comments1" maxlength="600" class="field-style" placeholder="What Could We Do Better?"></textarea>
+			</li>
+			<li>
+			<textarea name="comments2" maxlength="600" class="field-style" placeholder="Any Other Comments"></textarea>
+			</li>
+			<button class="g-recaptcha" data-sitekey="6LeJtdEUAAAAALjLCBrDMOeG34FLzt2AFwHcABGk" data-callback="onSubmit">
+            Submit
+			</button>
+			</ul>
+			</form>
+		

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<title>Feedback Form</title>	
+
+<h1>Feedback Form</h1>
+
+			<form class="form-style-9" method="post" action="feedback_form/send_mail.php">
+			<ul>
+			<li>
+    		<input type="text" name="full_name" class="field-style field-split align-left" placeholder="Full Name" required/>
+    		<input type="email" name="email_address" class="field-style field-split align-right" placeholder="Email" />
+			</li>
+			<li>
+    		<input type="tel" name="contact_number" class="field-style field-split align-left" placeholder="Mobile Number" pattern="[0-9]{11}"/>
+    		<input type="tel" name="contact_number2" class="field-style field-split align-right" placeholder="Telephone Number" pattern="[0-9]{11}"/>
+			</li>
+			<li>
+			<input type="text" name="subject" class="field-style field-full align-none" placeholder="Subject" required/>
+			</li>
+			<li>
+			<textarea name="comments" maxlength="600" class="field-style" placeholder="Message" required></textarea>
+			</li>
+			<li>
+			<input type="submit" value="Send Message" />
+			</li>
+			</ul>
+			</form>
